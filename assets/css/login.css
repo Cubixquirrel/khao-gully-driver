@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 60%;
+    background: #fafafa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+}
+
+.logo {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.dash {
+    width: 20px;
+    height: 1PX;
+    display: block;
+    margin: 0 5px;
+    background: #dddddd;
+    color: #dddddd;
+    margin-top: 2px;
+}
+
+.center-text {
+    color: #444444;
+    font-size: 12px;
+}
+
+.description {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin: 0;
+    text-align: center;
+}
+
+.banner-image {
+    width: 70%;
+    margin: 10px 0;
+}
+
+.description {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.body {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #fefefe;
+}
+
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.head-text {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.field {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    outline: none !important;
+}
+
+.foot {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #fefefe;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.main-button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    outline: none !important;
+    border-radius: 3px;
+    border: 0;
+    background: #dddddd;
+    color: #999999;
+    transition: all 0.05s ease 0s;
+}
+
+.secondary-button {
+    font-size: 12px;
+    margin: 15px 0;
+    display: block;
+}
+
+.link {
+    color: #FF5722;
+}
+
+.warning-text {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #FF5722;
+    display: block;
+}
